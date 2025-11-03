@@ -5,7 +5,7 @@ test("Open Google.com and click Gmail Button",async({page})=>{
     await page.goto("https://www.amazon.in")
     //await page.getByText("Gmail").click()
 
-    await page.waitForTimeout(4000)
+    await page.waitForTimeout(8000)
 
    // await page.locator("textarea[title='Search']").fill("Testing")
 
@@ -13,7 +13,7 @@ test("Open Google.com and click Gmail Button",async({page})=>{
     // await page.locator("input[value='Go']").click()
     await page.locator("//a[contains(text(),'Deals')]").click()
 
-    await page.pause() // debugging 
+  //  await page.pause() // debugging 
 
 })
 
