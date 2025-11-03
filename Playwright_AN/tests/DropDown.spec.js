@@ -12,7 +12,7 @@ const countrylist= await page.locator("#country").textContent()
 
 console.log(countrylist)
 
-await expect(countrylist.includes('India')).toBeTruthy()
+await expect(countrylist.includes('Germany')).toBeTruthy()
 
 const countrydropdowncount = await page.$$("#country option")
 
