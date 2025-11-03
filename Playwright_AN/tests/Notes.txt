@@ -1,0 +1,69 @@
+
+
+test("Test Case Name ",async({page})=>{
+
+await page.goto("URL")
+
+})
+
+
+text() --- 1 of 1 
+
+
+css
+
+1 - we have id ----
+
+
+css
+xpath
+getbytext
+getbyplaceholder 
+
+1 - we have id  
+
+#idname --- 
+
+2 -  tagname[attribute='value']
+
+
+<anything -- tagname
+red color -- Attributes
+blue color --- value
+black color - Text 
+
+textarea[title='Search']
+
+
+input[palceholder='Search Amazon.in']
+
+
+Xpath - 
+
+1- //tagname[@attribute='value']
+
+//textarea[@title='Search']
+
+2 - //tagname[text()='text value']
+
+//a[text()='Gmail']
+
+//a[text()='Create new account']
+
+//a[text()='Customer Service']
+
+
+//a[text()='Today's Deals']
+
+3 --- contains
+
+//tagname[contains(text(),'search value')]
+
+//a[contains(text(),'Deals')]
+
+4- (//a[contains(text(),'D')])[1] --- Location wise xpath
+
+{
+key  : value
+}
+
