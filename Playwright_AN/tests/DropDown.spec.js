@@ -5,7 +5,7 @@ await page.goto("https://testautomationpractice.blogspot.com/")
 
 await page.locator("#country").selectOption({label:'Australia'})
 
-await page.pause()
+//gawait page.pause()
 
 
 const countrylist= await page.locator("#country").textContent()
