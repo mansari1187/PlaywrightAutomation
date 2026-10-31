@@ -6,7 +6,7 @@ test("Open TestAutomation Website and Handling Alert",async({page})=>{
 
     const allframedetails = await page.frames()
 
-    console.log(allframedetails.length)
+  //  console.log(allframedetails.length)
 
 
     const imageFrame = await page.frame("a077aa5e") //User will go inside into the frame 

@@ -5,7 +5,7 @@ await page.goto("https://amazon.in")
 
 await page.locator("//span[contains(text(),'Account & Lists')]").hover()
 
-await page.locator("//span[text()='Your Account']").click()
+//await page.locator("//span[text()='Your Account']").click()
 
 await page.pause();
 
